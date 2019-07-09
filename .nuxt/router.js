@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 
 const _b2c8191a = () => interopDefault(import('..\\pages\\user\\index.vue' /* webpackChunkName: "pages_user_index" */))
+const _45ba9dc7 = () => interopDefault(import('..\\pages\\video.vue' /* webpackChunkName: "pages_video" */))
 const _913392ca = () => interopDefault(import('..\\pages\\user\\_id.vue' /* webpackChunkName: "pages_user__id" */))
 const _73b4a2c4 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
 
@@ -84,6 +85,10 @@ export function createRouter() {
       path: "/user",
       component: _b2c8191a,
       name: "user"
+    }, {
+      path: "/video",
+      component: _45ba9dc7,
+      name: "video"
     }, {
       path: "/user/:id",
       component: _913392ca,

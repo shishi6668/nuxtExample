@@ -1,5 +1,6 @@
 module.exports = {
     css:[
-        'assets/main.css'
+        {src:'assets/main.css' },
+        {src:'assets/reset.css'}
     ]
 }
