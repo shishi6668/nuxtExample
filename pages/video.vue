@@ -33,11 +33,14 @@
   </div>
 </template>
 <style lang="less" scoped>
-.connection{
-    .container{
-        & > div:nth-child(2) h3{
-            color: #fff;
-        }
+.connection {
+  .container {
+    & > div:nth-child(2) {
+      background-color: pink;
+      h3 {
+        color: #fff;
+      }
     }
+  }
 }
 </style>
